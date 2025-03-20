@@ -62,6 +62,7 @@ We welcome community contributions! If you’ve encountered or discovered an int
 
 ## Starknet-Specific
 ### Highs
+- [Chakara on C4](Reports/StarknetSpecific/Highs/ChakarC4.md) - Wrong processing of the `SUCCESS` of a cross-chain transaction
 
 ### Mediums
 - [Kakarot on C4](Reports/StarknetSpecific/Mediums/KakarotC4.md) - Precompile crashed due to mismatch in dictionary, under certain conditions. 
