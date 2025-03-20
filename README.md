@@ -1,5 +1,5 @@
 # NotAgain-Cairo
-![coverImage]("")
+![coverImage](./theme/notagaincairo.png)
 <br>
 Welcome to NotAgain Cairo. A **Cairo Security Findings** gathering! This repo serves as a curated collection of security vulnerabilities, anti-patterns, and best practices specific to Cairo smart contracts (Starknet ecosystem).
 
@@ -9,12 +9,32 @@ The goal is to provide auditors, developers, and researchers with real-world exa
 ---
 
 ## 🛠️ Structure
-- [DoS (Denial-of-Service)](#dos(denial-of-service))
+- [DoS (Denial-of-Service)](#dos-denial-of-service)
 - [Reentrancy](#reentrancy)
+- [DeFi](#defi)
 - [Access-Control](#access-control)
-- [Arithmetic-Issues](#arithmetic-issues)
+- [Centralization Risks](#centralization-risks)
+- [Arithmetic Issues](#arithmetic-issues)
 - [Storage-Collision](#storage-collision)
 - [Starknet-Specific](#starknet-specific)
+
+**Each folder contains:**
+
+- TL;DR
+- Vulnerability description
+- Minimal reproducible code sample
+- Impact analysis
+- Recommended fix
+- References (if available)
+
+---
+
+## 🤝 Contributing
+
+We welcome community contributions! If you’ve encountered or discovered an interesting Cairo-based bug or pattern, feel free to open a PR, or contact on [X](https://x.com/JJS_OnChain).
+
+---
+
 
 ## Dos (Denial-of-Service)
 
@@ -22,7 +42,13 @@ The goal is to provide auditors, developers, and researchers with real-world exa
 ## Reentrancy
 
 
-## Access-Control
+## DeFi
+
+
+## Access Control
+
+
+## Centralization Risks
 
 
 ## Arithmetic-Issues
