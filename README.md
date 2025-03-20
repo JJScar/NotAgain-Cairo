@@ -19,7 +19,10 @@ The goal is to provide auditors, developers, and researchers with real-world exa
 - [Starknet-Specific](#starknet-specific)
 
 **Each folder contains:**
+- High severity vulnerabilities 
+- Medium severity vulnerabilities 
 
+**Within the finding itself:**
 - TL;DR
 - Vulnerability description
 - Minimal reproducible code sample
@@ -58,3 +61,7 @@ We welcome community contributions! If you’ve encountered or discovered an int
 
 
 ## Starknet-Specific
+### Highs
+
+### Mediums
+- [Kakarot on C4](Reports/StarknetSpecific/Mediums/KakarotC4.md) - Precompile crashed due to mismatch in dictionary, under certain conditions. 
